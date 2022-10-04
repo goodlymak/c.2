@@ -1,0 +1,27 @@
+/* 
+Aouther:- Mukadam Umar Ahmed 
+Date:- 23-09-2022
+Program: a program to find the area and volume of a sphere
+*/
+
+#include <stdio.h>
+
+int main()
+{
+    double pi=3.1415926535897932384626433832795;
+    float r;
+    float volume;
+    float area;
+    printf("enter radius of spheare= ");
+    scanf("%f",&r);
+     area=4*pi*r*r;
+     volume=(4/3.0)*pi*(r*r*r);
+    printf("area of sphare=%f ", area);
+    printf("\n");
+    printf("volume of sphare=%f",volume);
+    return 0;
+}
+Output:
+enter radius of spheare= 20
+area of sphare=5026.548340 
+volume of sphare=33510.320312
