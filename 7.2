@@ -1,0 +1,47 @@
+/* author: Mukadam Umar Ahmed
+date: 01-10-2022
+progarm:  using swicth statement for grades
+*/
+#include <stdio.h>
+
+void main() 
+    {
+    int marks;
+    printf(" enter marks 0to100 =");
+    scanf("%d",&marks);
+    int v=marks/25;
+
+    
+        switch (v)
+        
+            {
+            case 4:
+            printf("A");
+            break;
+            
+            case 3:
+            printf("b");
+            break;
+            
+            case 2:
+            printf("c");
+            break;
+            
+            case 1:
+            printf("f");
+            break;
+           
+           case 0:
+           printf("fail");
+           break;
+           
+           
+            default:
+            printf(" pleas enter a valid marks beteen 0 to 100 ");
+            }
+    
+    }
+    
+    Output:
+    enter marks 0to100 =0
+    fail
