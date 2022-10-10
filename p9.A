@@ -21,7 +21,7 @@
             rev=(rev*10)+m;
             }
             printf("sum of number is:%d",sum);
-            printf("\nEnter number:%d",rev);
+            printf("\nrevers:%d",rev);
         }
 
 Output:
