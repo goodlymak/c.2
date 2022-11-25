@@ -1,0 +1,27 @@
+/*
+Aouthor:Mukadam Umar Ahmed
+Date:25-11-2022
+Program:Swap using function by call by value
+*/
+#include <stdio.h>
+void main()
+{
+    int a=10;
+    int b=12;
+    printf("Before swapping a=%d And b=%d\n", a,b);
+      swap(a,b);
+}
+
+void swap(int x,int y)
+{
+    printf("Before swapping x=%d And y=%d\n", x,y);
+    int good=x;
+    x=y;
+    y=good;
+    printf("value after swapping x=%d And y=%d", x,y);
+}
+
+OUTPUT
+Before swapping a=10 And b=12
+Before swapping x=10 And y=12
+value after swapping x=12 And y=10
